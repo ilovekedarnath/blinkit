@@ -141,6 +141,20 @@
             .back-link:hover {
                 text-decoration: underline;
             }
+            footer {
+            background-color: #333; /* Dark background */
+            color: #fff; /* White text */
+            text-align: center; /* Center text */
+            padding: 15px 0; /* Add padding */
+            width: 100%; /* Full width */
+            bottom: 0; /* Stick to bottom */
+            font-family: Arial, sans-serif; /* Set font */
+            font-size: 14px; /* Adjust font size */
+            }
+            .credits {
+                font-size: 12px; /* Slightly smaller text */
+                opacity: 0.8; /* Reduce brightness */
+            }
         </style>
     </head>
     
@@ -154,6 +168,11 @@
         </div>
         <a href="main.html" class="back-link">Continue Shopping</a>
         
+        <footer>
+            <p>&copy; 2025 PSCreation All Rights Reserved.</p>
+            <p class="credits">Designed by Mr. Parth Sudani</p>
+        </footer>
+    
         <script>
             function loadCart() {
                 let cart = JSON.parse(localStorage.getItem('cart')) || [];
