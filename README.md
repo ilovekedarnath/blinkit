@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <title>PS Creation</title>
         <style>
             body {
             font-family: 'Poppins', Arial, sans-serif;
@@ -474,7 +475,21 @@
                 transform: scale(1.2);  /* Enlarge the icon */
                 filter: brightness(1.2); /* Slightly brighten the icon */
             }
-
+             /* Footer Styling */
+            footer {
+                background-color: #333; /* Dark background */
+                color: #fff; /* White text */
+                text-align: center; /* Center text */
+                padding: 15px 0; /* Add padding */
+                width: 100%; /* Full width */
+                bottom: 0; /* Stick to bottom */
+                font-family: Arial, sans-serif; /* Set font */
+                font-size: 14px; /* Adjust font size */
+            }
+            .credits {
+                font-size: 12px; /* Slightly smaller text */
+                opacity: 0.8; /* Reduce brightness */
+            }
         </style>
     </head>
 
@@ -656,7 +671,10 @@
                 <button class="add-to-cart" onclick="addToCart('Mango Juice', 4.00, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFTMAWUlaT_w6PibUDr0-pmD-qzBKS8RiYzw&s')">Add to Cart</button>
             </div>
         </div>
-            
+        <footer>
+            <p>&copy; 2025 PSCreation All Rights Reserved.</p>
+            <p class="credits">Designed by Mr. Parth Sudani</p>
+        </footer>
         <script>
             let cart = [];
 
